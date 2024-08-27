@@ -70,7 +70,7 @@
 			<br>
 			<a href="https://www.bing.com" rel="bookmark" > My Website </a>
 			<br> <br>
-			<form>
+			<form id="contactform" action="https://formspree.io/f/xkgwyopq" method="POST">
 				<label for="name"> *Name: </label><br>
 				<input type="text" name="name-text-field" id="name"><br>
 
@@ -78,7 +78,7 @@
 				<input type="text" name="email" id="email"><br>
 
 				<label for="mobile"> Mobile(optional): </label><br>
-				<input type="tel" name="mobile" id="mobile">
+				<input type="text" name="mobile" id="mobile" pattern="[0-9]">
 			</form>
 			<form>
 				<label for="textarea"> *Leave your message to me: </label>
